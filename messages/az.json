@@ -10,9 +10,11 @@
   },
   "Navigation": {
     "Home": "Ana Səhifə",
+    "Map": "Xəritə",
     "Contact": "Əlaqə"
   },
   "Footer": {
+    "Copyright": "\u00A9 {date} <link>Mustafa Genc</link>.",
     "BuyMeATea": "Mənə bir çay al",
     "LicensedUnderTheApacheLicense": "Apache Lisenziyası altında lisenziyalıdır."
   },

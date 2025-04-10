@@ -10,9 +10,11 @@
   },
   "Navigation": {
     "Home": "Startseite",
+    "Map": "Karte",
     "Contact": "Kontakt"
   },
   "Footer": {
+    "Copyright": "\u00A9 {date} <link>Mustafa Genc</link>.",
     "BuyMeATea": "Kauf mir einen Tee",
     "LicensedUnderTheApacheLicense": "Lizenziert unter der Apache Lizenz."
   },

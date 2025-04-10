@@ -10,9 +10,11 @@
   },
   "Navigation": {
     "Home": "Главная",
+    "Map": "карта",
     "Contact": "Контакт"
   },
   "Footer": {
+    "Copyright": "\u00A9 {date} <link>Мустафа Генч</link>.",
     "BuyMeATea": "Купи мне чай",
     "LicensedUnderTheApacheLicense": "Лицензировано в соответствии с лицензией Apache."
   },

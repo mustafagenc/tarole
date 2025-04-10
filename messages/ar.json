@@ -10,10 +10,11 @@
   },
   "Navigation": {
     "Home": "الصفحة الرئيسية",
-    "Contact": "اتصل",
-    "Language": "لغة"
+    "Map": "خريطة",
+    "Contact": "اتصل"
   },
   "Footer": {
+    "Copyright": "\u00A9 {date} <link>مصطفى كنج</link>.",
     "BuyMeATea": "اشتري لي كوب شاي",
     "LicensedUnderTheApacheLicense": "مرخصة بموجب رخصة أباتشي."
   },

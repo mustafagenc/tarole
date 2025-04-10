@@ -10,9 +10,11 @@
   },
   "Navigation": {
     "Home": "Bosh sahifa",
+    "Map": "Xarita",
     "Contact": "Aloqa"
   },
   "Footer": {
+    "Copyright": "\u00A9 {date} <link>Mustafa Genc</link>.",
     "BuyMeATea": "Menga bir choy sotib oling",
     "LicensedUnderTheApacheLicense": "Apache License ostida litsenziyalangan."
   },

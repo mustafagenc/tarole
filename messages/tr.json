@@ -14,6 +14,7 @@
     "Contact": "İletişim"
   },
   "Footer": {
+    "Copyright": "\u00A9 {date} <link>Mustafa Genç</link>.",
     "BuyMeATea": "Bana bir çay ısmarla",
     "LicensedUnderTheApacheLicense": "Apache License ile lisanslanmıştır."
   },
