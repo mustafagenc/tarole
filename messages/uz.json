@@ -1,0 +1,22 @@
+{
+  "App": {
+    "Name": "Havasakorlik Radio Releleri",
+    "ShortName": "HTR.",
+    "Description": "Turkiya bo'ylab barcha havaskor radio relelarining dolzarb ro'yxati va batafsil ma'lumotlarini bir tom ostida taqdim etish orqali havaskor radio operatorlarining aloqasini osonlashtirishga qaratilgan platforma."
+  },
+  "Meta": {
+    "Title": "Havasakorlik Radio Releleri",
+    "Description": "Turkiya bo'ylab barcha havaskor radio relelarining dolzarb ro'yxati va batafsil ma'lumotlarini bir tom ostida taqdim etish orqali havaskor radio operatorlarining aloqasini osonlashtirishga qaratilgan platforma."
+  },
+  "Navigation": {
+    "Home": "Bosh sahifa",
+    "Contact": "Aloqa"
+  },
+  "Footer": {
+    "BuyMeATea": "Menga bir choy sotib oling",
+    "LicensedUnderTheApacheLicense": "Apache License ostida litsenziyalangan."
+  },
+  "Home": {
+    "Title": "Salom Dunyo!"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "App": {
+    "Name": "Həvəskar Radio Releləri",
+    "ShortName": "H.R.R.",
+    "Description": "Türkiyə daxilindəki bütün həvəskar radio relelərinin aktual siyahısını və ətraflı məlumatlarını bir çatıda təqdim edərək, həvəskar radio həvəskarlarının ünsiyyətini asanlaşdırmağı hədəfləyən bir platformadır."
+  },
+  "Meta": {
+    "Title": "Həvəskar Radio Releləri",
+    "Description": "Türkiyə daxilindəki bütün həvəskar radio relelərinin aktual siyahısını və ətraflı məlumatlarını bir çatıda təqdim edərək, həvəskar radio həvəskarlarının ünsiyyətini asanlaşdırmağı hədəfləyən bir platformadır."
+  },
+  "Navigation": {
+    "Home": "Ana Səhifə",
+    "Contact": "Əlaqə"
+  },
+  "Footer": {
+    "BuyMeATea": "Mənə bir çay al",
+    "LicensedUnderTheApacheLicense": "Apache Lisenziyası altında lisenziyalıdır."
+  },
+  "Home": {
+    "Title": "Salam Dünya!"
+  }
+}

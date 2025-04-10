@@ -1,0 +1,22 @@
+{
+  "App": {
+    "Name": "Amateurfunkrelais",
+    "ShortName": "AFR.",
+    "Description": "Eine Plattform, die darauf abzielt, die Kommunikation von Amateurfunkern zu erleichtern, indem sie eine aktuelle Liste und detaillierte Informationen aller Amateurfunkrelais in der Türkei unter einem Dach präsentiert."
+  },
+  "Meta": {
+    "Title": "Amateurfunkrelais",
+    "Description": "Eine Plattform, die darauf abzielt, die Kommunikation von Amateurfunkern zu erleichtern, indem sie eine aktuelle Liste und detaillierte Informationen aller Amateurfunkrelais in der Türkei unter einem Dach präsentiert."
+  },
+  "Navigation": {
+    "Home": "Startseite",
+    "Contact": "Kontakt"
+  },
+  "Footer": {
+    "BuyMeATea": "Kauf mir einen Tee",
+    "LicensedUnderTheApacheLicense": "Lizenziert unter der Apache Lizenz."
+  },
+  "Home": {
+    "Title": "Hallo Welt!"
+  }
+}

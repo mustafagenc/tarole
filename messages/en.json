@@ -1,0 +1,22 @@
+{
+  "App": {
+    "Name": "Amateur Radio Repeaters",
+    "ShortName": "ARR.",
+    "Description": "It is a platform that aims to facilitate the communication of amateur radio operators by presenting the current list and detailed information of all amateur radio repeaters in Turkey under one roof."
+  },
+  "Meta": {
+    "Title": "Amateur Radio Repeaters",
+    "Description": "It is a platform that aims to facilitate the communication of amateur radio operators by presenting the current list and detailed information of all amateur radio repeaters in Turkey under one roof."
+  },
+  "Navigation": {
+    "Home": "Home",
+    "Contact": "Contact"
+  },
+  "Footer": {
+    "BuyMeATea": "Buy me a tea",
+    "LicensedUnderTheApacheLicense": "Licensed under the Apache License."
+  },
+  "Home": {
+    "Title": "Hello World!"
+  }
+}

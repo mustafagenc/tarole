@@ -1,0 +1,22 @@
+{
+  "App": {
+    "Name": "Amatör Telsiz Röleleri",
+    "ShortName": "ATR.",
+    "Description": "Türkiye genelindeki tüm amatör telsiz rölelerinin güncel listesi ve detaylı bilgilerini tek bir çatı altında sunarak, amatör telsizcilerin iletişimini kolaylaştırmayı hedefleyen bir platformdur."
+  },
+  "Meta": {
+    "Title": "Amatör Telsiz Röleleri",
+    "Description": "Türkiye genelindeki tüm amatör telsiz rölelerinin güncel listesi ve detaylı bilgilerini tek bir çatı altında sunarak, amatör telsizcilerin iletişimini kolaylaştırmayı hedefleyen bir platformdur."
+  },
+  "Navigation": {
+    "Home": "Ana Sayfa",
+    "Contact": "İletişim"
+  },
+  "Footer": {
+    "BuyMeATea": "Bana bir çay ısmarla",
+    "LicensedUnderTheApacheLicense": "Apache License ile lisanslanmıştır."
+  },
+  "Home": {
+    "Title": "Merhaba Dünya!"
+  }
+}
