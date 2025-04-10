@@ -8,13 +8,18 @@
     "Title": "Amatör Telsiz Röleleri",
     "Description": "Türkiye’deki tüm amatör telsiz rölelerinin güncel bilgilerini sunan, telsizciler arası iletişimi kolaylaştıran açık kaynak bir projedir."
   },
+  "Shared": {
+    "Loading": "Yükleniyor...",
+    "ThemeSwitcher": "Tema Değiştirici",
+    "ToggleMenu": "Menüyü Aç/Kapat"
+  },
   "Navigation": {
     "Home": "Ana Sayfa",
     "Map": "Harita",
     "Contact": "İletişim"
   },
   "Footer": {
-    "Copyright": "\u00A9 {date} <link>Mustafa Genç</link>.",
+    "Copyright": "© {date} <link>Mustafa Genç</link>.",
     "BuyMeATea": "Bana bir çay ısmarla",
     "LicensedUnderTheApacheLicense": "Apache License ile lisanslanmıştır."
   },

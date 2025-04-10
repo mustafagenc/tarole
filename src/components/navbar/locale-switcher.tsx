@@ -14,11 +14,12 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { locales } from '@/lib/constants';
+import { useTranslations } from 'next-intl';
 
 export function LocaleSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
-  // const locale = useLocale();
+  const t = useTranslations('Shared');
 
   const [mounted, setMounted] = useState<boolean>(false);
 
@@ -35,7 +36,7 @@ export function LocaleSwitcher() {
     return (
       <Button size="icon" variant="ghost">
         <Loader className="size-5 animate-spin text-zinc-400" />
-        <span className="sr-only">Loading...</span>
+        <span className="sr-only">{t('Loading')}</span>
       </Button>
     );
   }
@@ -43,7 +44,11 @@ export function LocaleSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button className="rounded-full" variant="outline" size="icon">
+        <Button
+          className="cursor-pointer rounded-full"
+          variant="outline"
+          size="icon"
+        >
           <AiOutlineGlobal size={16} aria-hidden="true" />
         </Button>
       </DropdownMenuTrigger>

@@ -8,6 +8,11 @@
     "Title": "Havasakorlik Radio Releleri",
     "Description": "Turkiya bo'ylab barcha havaskor radio relelarining dolzarb ro'yxati va batafsil ma'lumotlarini bir tom ostida taqdim etish orqali havaskor radio operatorlarining aloqasini osonlashtirishga qaratilgan platforma."
   },
+  "Shared": {
+    "Loading": "Yuklanmoqda...",
+    "ThemeSwitcher": "Mavzu almashtirgich",
+    "ToggleMenu": "Menyuni ochish"
+  },
   "Navigation": {
     "Home": "Bosh sahifa",
     "Map": "Xarita",

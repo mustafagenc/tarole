@@ -8,6 +8,11 @@
     "Title": "Həvəskar Radio Releləri",
     "Description": "Türkiyə daxilindəki bütün həvəskar radio relelərinin aktual siyahısını və ətraflı məlumatlarını bir çatıda təqdim edərək, həvəskar radio həvəskarlarının ünsiyyətini asanlaşdırmağı hədəfləyən bir platformadır."
   },
+  "Shared": {
+    "Loading": "Yüklənir...",
+    "ThemeSwitcher": "Tema Dəyişdirici",
+    "ToggleMenu": "Menyunu dəyişdir"
+  },
   "Navigation": {
     "Home": "Ana Səhifə",
     "Map": "Xəritə",

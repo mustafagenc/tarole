@@ -8,6 +8,11 @@
     "Title": "Amateur Radio Repeaters",
     "Description": "It is a platform that aims to facilitate the communication of amateur radio operators by presenting the current list and detailed information of all amateur radio repeaters in Turkey under one roof."
   },
+  "Shared": {
+    "Loading": "Loading...",
+    "ThemeSwitcher": "Theme Switcher",
+    "ToggleMenu": "Toggle Menu"
+  },
   "Navigation": {
     "Home": "Home",
     "Map": "Map",

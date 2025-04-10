@@ -5,16 +5,18 @@ import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
 import { useDarkTheme } from '@/lib/hooks/useDarkTheme';
 import { Label } from '@radix-ui/react-label';
+import { useTranslations } from 'next-intl';
 
 export const ThemeSwitcher = () => {
   const [isDark, mounted, setTheme] = useDarkTheme();
   const id = useId();
+  const t = useTranslations('Shared');
 
   if (!mounted) {
     return (
       <Button size="icon" variant="ghost">
         <Loader className="size-5 animate-spin text-zinc-400" />
-        <span className="sr-only">Loading...</span>
+        <span className="sr-only">{t('Loading')}</span>
       </Button>
     );
   }
@@ -36,7 +38,7 @@ export const ThemeSwitcher = () => {
         </span>
       </div>
       <Label htmlFor={id} className="sr-only">
-        Labeled switch
+        {t('ThemeSwitcher')}
       </Label>
     </div>
   );

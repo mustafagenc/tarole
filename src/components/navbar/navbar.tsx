@@ -8,6 +8,7 @@ import { getLangDir } from 'rtl-detect';
 import { Link, usePathname } from '@/i18n/navigation';
 import { NAV_LINKS } from '@/lib/constants';
 
+import { Separator } from '@radix-ui/react-separator';
 import { GithubButton } from './github-button';
 import { LocaleSwitcher } from './locale-switcher';
 import MenuButton from './menu-button';
@@ -34,8 +35,8 @@ export const Navbar = () => {
 
   const getClassnameForLink = (path: string) => {
     return pathName === path
-      ? 'content-center rounded-md bg-gray-900 dark:bg-gray-950 px-3 py-2 text-sm font-medium text-white dark:text-gray-300'
-      : 'content-center rounded-md px-3 py-2 text-sm font-medium text-white-950 hover:bg-gray-100 hover:text-black dark:hover:bg-gray-950 dark:text-gray-300';
+      ? 'content-center rounded-md bg-blue-900 dark:bg-blue-950 px-3 py-2 text-sm font-medium text-white dark:text-gray-300'
+      : 'content-center rounded-md px-3 py-2 text-sm font-medium text-white-950 hover:bg-gray-100 hover:text-black dark:hover:bg-blue-950/50 dark:text-gray-300';
   };
 
   const t = useTranslations();
@@ -71,7 +72,7 @@ export const Navbar = () => {
                 />
               </span>
             </button>
-            <div className="font-popins text-2xl font-semibold text-shadow-2xs">
+            <div className="font-popins text-2xl font-semibold text-shadow-lg dark:shadow-blue-900">
               <span className="hidden lg:block">{t('Meta.Title')}</span>
               <span className="lg:hidden">{t('App.ShortName')}</span>
             </div>
@@ -89,6 +90,7 @@ export const Navbar = () => {
               </Link>
             ))}
           </div>
+          <Separator orientation="vertical" className="border-blue-900" />
           <GithubButton />
           <LocaleSwitcher />
           <ThemeSwitcher />

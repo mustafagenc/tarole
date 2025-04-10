@@ -8,6 +8,11 @@
     "Title": "Amateurfunkrelais",
     "Description": "Eine Plattform, die darauf abzielt, die Kommunikation von Amateurfunkern zu erleichtern, indem sie eine aktuelle Liste und detaillierte Informationen aller Amateurfunkrelais in der Türkei unter einem Dach präsentiert."
   },
+  "Shared": {
+    "Loading": "Wird geladen...",
+    "ThemeSwitcher": "Theme Switcher",
+    "ToggleMenu": "Menü umschalten"
+  },
   "Navigation": {
     "Home": "Startseite",
     "Map": "Karte",

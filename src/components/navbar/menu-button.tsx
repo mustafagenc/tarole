@@ -1,15 +1,18 @@
+import { useTranslations } from 'next-intl';
+
 interface Props {
   isOpened: boolean;
   onClick(): void;
 }
 
 export default function MenuButton({ isOpened, onClick }: Props) {
+  const t = useTranslations('Shared');
   return (
     <button
       type="button"
       className="z-50 flex h-9 w-9 cursor-pointer rounded bg-transparent lg:hidden"
       onClick={onClick}
-      aria-label="Toggle Menu"
+      aria-label={t('ToggleMenu')}
     >
       <svg viewBox="0 0 100 100" className="h-9 w-9 text-black dark:text-white">
         <path
