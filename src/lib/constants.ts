@@ -7,6 +7,7 @@ export const ROUTES = ['', '/about', '/contact', '/privacy'];
 
 export const NAV_LINKS = [
   { name: 'Navigation.Home', path: '/' },
+  { name: 'Navigation.Map', path: '/map/' },
   { name: 'Navigation.Contact', path: '/contact/' },
 ];
 

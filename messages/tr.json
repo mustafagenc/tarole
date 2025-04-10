@@ -2,14 +2,15 @@
   "App": {
     "Name": "Amatör Telsiz Röleleri",
     "ShortName": "ATR.",
-    "Description": "Türkiye genelindeki tüm amatör telsiz rölelerinin güncel listesi ve detaylı bilgilerini tek bir çatı altında sunarak, amatör telsizcilerin iletişimini kolaylaştırmayı hedefleyen bir platformdur."
+    "Description": "Türkiye’deki tüm amatör telsiz rölelerinin güncel bilgilerini sunan, telsizciler arası iletişimi kolaylaştıran açık kaynak bir projedir."
   },
   "Meta": {
     "Title": "Amatör Telsiz Röleleri",
-    "Description": "Türkiye genelindeki tüm amatör telsiz rölelerinin güncel listesi ve detaylı bilgilerini tek bir çatı altında sunarak, amatör telsizcilerin iletişimini kolaylaştırmayı hedefleyen bir platformdur."
+    "Description": "Türkiye’deki tüm amatör telsiz rölelerinin güncel bilgilerini sunan, telsizciler arası iletişimi kolaylaştıran açık kaynak bir projedir."
   },
   "Navigation": {
     "Home": "Ana Sayfa",
+    "Map": "Harita",
     "Contact": "İletişim"
   },
   "Footer": {
