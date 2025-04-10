@@ -49,6 +49,13 @@ Tarayıcında [http://localhost:3000](http://localhost:3000) adresini açarak pr
 - `lint`: `/src` dizininde eslint çalıştırır (kodun kurallara uygunluğunu kontrol eder).
 - `prettier`: `/src` dizininde prettier çalıştırır (kodun biçimlendirmesini düzenler).
 
+## 🔍 Kaynaklar
+
+- [`TA2KB Röle Listesi`](https://ta2kb.com/tarole.asp)
+- [`Amatör Telsiz Röle`](https://amatortelsizcilik.com.tr/anasayfa)
+- [`Anadolu Kesintisiz İletişim Radyo Amatörleri Derneği`](https://www.akrad.org.tr/turkiye-geneli-role-listesi/)
+- [`TRAC`](https://trac.org.tr/tr/role-bilgileri)
+
 ## 💬 İletişim
 
 Benimle [mustafagenc.info/contact](https://mustafagenc.info/contact) adresinden iletişime geçebilirsiniz.
