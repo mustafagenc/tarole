@@ -3,16 +3,12 @@
 import dynamic from 'next/dynamic';
 
 const DynamicMap = dynamic(
-  () => import('./dynamic').then((mod) => mod.DynamicMap),
+  () => import('@/components/map/map-content').then((mod) => mod.MapContent),
   {
     ssr: false,
   }
 );
 
 export default function Page() {
-  return (
-    <div className="size-full">
-      <DynamicMap />
-    </div>
-  );
+  return <DynamicMap />;
 }
