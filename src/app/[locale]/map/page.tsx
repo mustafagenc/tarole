@@ -1,10 +1,18 @@
-import { getTranslations } from 'next-intl/server';
+'use client';
 
-export default async function Page() {
-  const t = await getTranslations('Home');
+import dynamic from 'next/dynamic';
+
+const DynamicMap = dynamic(
+  () => import('./dynamic').then((mod) => mod.DynamicMap),
+  {
+    ssr: false,
+  }
+);
+
+export default function Page() {
   return (
-    <section className="mx-auto min-h-screen max-w-7xl grow px-4 antialiased lg:px-0">
-      {t('Title')}
-    </section>
+    <div className="size-full">
+      <DynamicMap />
+    </div>
   );
 }

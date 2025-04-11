@@ -5,11 +5,6 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     dangerouslyAllowSVG: true,
-    domains: [
-      'img.buymeacoffee.com',
-      'github.com',
-      'avatars.githubusercontent.com',
-    ],
     remotePatterns: [
       {
         protocol: 'https',
