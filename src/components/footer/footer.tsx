@@ -13,25 +13,23 @@ export const Footer = () => {
     <>
       <footer className="bg-background flex h-20 w-full items-center border-t-1 py-4">
         <div className="relative mx-auto flex w-full max-w-7xl flex-col items-center space-x-2 lg:flex-row">
-          <div className="flex grow flex-row items-center justify-center space-x-2 lg:justify-start">
-            <span>
-              {t.rich('Footer.Copyright', {
-                date: new Date().getFullYear(),
-                link: (chunks) => (
-                  <Link
-                    href="https://mustafagenc.info"
-                    className="hover:underline"
-                  >
-                    {chunks}
-                  </Link>
-                ),
-              })}
-            </span>
+          <div className="flex grow flex-row items-center justify-center space-x-2 text-sm lg:justify-start">
+            {t.rich('Footer.Copyright', {
+              date: new Date().getFullYear(),
+              link: (chunks) => (
+                <Link
+                  href="https://mustafagenc.info"
+                  className="hover:underline"
+                >
+                  {chunks}
+                </Link>
+              ),
+            })}
             <a
               href={LICENSE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-row items-center space-x-2 text-sm hover:underline"
+              className="hover:underline"
             >
               <span>{t('Footer.LicensedUnderTheApacheLicense')}</span>
             </a>

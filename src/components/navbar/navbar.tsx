@@ -61,7 +61,7 @@ export const Navbar = () => {
             <button
               className={`${isRtl ? 'mr-1' : 'ml-1'} group relative inline-flex cursor-pointer items-center justify-center overflow-hidden rounded-full bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:ring-green-200 focus:outline-none dark:text-white dark:focus:ring-green-800`}
             >
-              <span className="relative rounded-md p-2">
+              <span className="relative h-12 w-12 rounded-md p-2">
                 <Image
                   className="h-8 w-8 fill-white"
                   src="/antenna.svg"
