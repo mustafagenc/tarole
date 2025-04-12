@@ -86,7 +86,7 @@ export default async function RootLayout({
       className="scroll-smooth"
     >
       <body
-        className={`${inter.variable} ${poppins.variable} flex min-h-screen flex-col antialiased`}
+        className={`${inter.variable} ${poppins.variable} flex flex-col antialiased`}
       >
         <NextIntlClientProvider>
           <Providers>

@@ -29,7 +29,7 @@ export const Header = () => {
           isTop
             ? 'border-none'
             : 'border-b border-gray-200 dark:border-gray-800'
-        } bg-opacity-30 dark:bg-opacity-30 bg-white px-4 backdrop-blur-lg backdrop-saturate-150 backdrop-filter lg:px-0 dark:bg-black`}
+        } bg-opacity-30 dark:bg-opacity-30 bg-background px-4 backdrop-blur-lg backdrop-saturate-150 backdrop-filter lg:px-0`}
       >
         <Navbar />
       </header>

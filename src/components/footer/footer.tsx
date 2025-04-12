@@ -11,7 +11,7 @@ export const Footer = () => {
   const t = useTranslations();
   return (
     <>
-      <footer className="mt-10 flex w-full items-center border-t-1 bg-gray-50 py-4 dark:bg-gray-950">
+      <footer className="bg-background flex h-20 w-full items-center border-t-1 py-4">
         <div className="relative mx-auto flex w-full max-w-7xl flex-col items-center space-x-2 lg:flex-row">
           <div className="flex grow flex-row items-center justify-center space-x-2 lg:justify-start">
             <span>

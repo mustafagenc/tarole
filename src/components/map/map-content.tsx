@@ -12,20 +12,19 @@ export const MapContent = () => {
       shadowUrl: '/map/marker-shadow.png',
     });
   }, []);
-
   return (
     <>
       <MapContainer
-        center={[51.505, -0.09]}
+        center={[40.9820006, 29.1332118]}
         zoom={13}
         scrollWheelZoom={false}
-        className="h-130 w-full"
+        className="z-10 h-[calc(100vh-164px)] w-full"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[51.505, -0.09]}>
+        <Marker position={[40.9820006, 29.1332118]}>
           <Popup>TA Role</Popup>
         </Marker>
       </MapContainer>

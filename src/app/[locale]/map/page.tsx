@@ -10,5 +10,9 @@ const DynamicMap = dynamic(
 );
 
 export default function Page() {
-  return <DynamicMap />;
+  return (
+    <section className="mx-auto px-4 lg:px-0">
+      <DynamicMap />
+    </section>
+  );
 }

@@ -63,7 +63,7 @@ export const Navbar = () => {
             >
               <span className="relative rounded-md p-2">
                 <Image
-                  className="h-9 w-auto fill-white"
+                  className="h-8 w-8 fill-white"
                   src="/antenna.svg"
                   alt={t('Meta.Title')}
                   dir={isRtl ? 'rtl' : 'ltr'}
@@ -90,7 +90,7 @@ export const Navbar = () => {
               </Link>
             ))}
           </div>
-          <Separator orientation="vertical" className="border-blue-900" />
+          <Separator orientation="vertical" />
           <GithubButton />
           <LocaleSwitcher />
           <ThemeSwitcher />
