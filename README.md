@@ -1,6 +1,6 @@
 # Türkiye Amatör Telsiz Röle Listesi
 
-[![Support Palestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md)
+[![Support Palestine](https://raw.githubusercontent.com/mustafagenc/palestine/refs/heads/main/banners/b-2.svg)](https://github.com/mustafagenc/palestine/blob/main/Support.md)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mustafagenc/tarole/badge)](https://www.codefactor.io/repository/github/mustafagenc/tarole) [![HelpWanted](https://img.shields.io/badge/Help%20Wanted-Contribute-blue)](https://github.com/mustafagenc/tarole/issues?q=is:issue+is:open+label:%22%F0%9F%99%8B%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8Fhelp+wanted%22) [![Commit Per Month](https://img.shields.io/github/commit-activity/m/mustafagenc/tarole?)](https://github.com/mustafagenc/tarole/commits/main) [![Last Commit](https://img.shields.io/github/last-commit/mustafagenc/tarole?)](https://github.com/mustafagenc/tarole/commits/main) ![License](https://img.shields.io/github/license/mustafagenc/tarole?label=License) [![Github Star](https://img.shields.io/github/stars/mustafagenc/tarole)](https://github.com/mustafagenc/tarole/stargazers)
 
